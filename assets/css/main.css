@@ -162,7 +162,25 @@ a {
 .banner nav ul li a:hover {
   color: white;
 }
+.arrow {
+  width: 5%;
+  background-color: #9f9f9f96;
+  position: absolute;
+  top: 50%;
+  border-radius: 100%;
+  height: 8%;
+  cursor: pointer;
+}
+#arrow-left {
+  left: 3%;
+}
+#arrow-right {
+  right: 3%;
+}
 /* Banner */
+.active {
+  display: block !important;
+}
 .banner-link {
   display: inline-flex;
   border: 1px solid;
@@ -176,6 +194,7 @@ a {
 .banner-content {
   margin: 0px auto;
   padding: 50px 0px;
+  display: none;
 }
 .slim-text {
   font-family: "M PLUS Rounded 1c", sans-serif;
@@ -485,6 +504,9 @@ footer {
   }
   .header-button {
     margin-top: 2%;
+  }
+  .arrow {
+    display: none;
   }
   /* Navigation */
   .menu-button {
