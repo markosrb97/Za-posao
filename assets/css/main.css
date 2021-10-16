@@ -360,11 +360,11 @@ textarea {
 /* Footer */
 footer {
   background-color: #3a1e02;
-  padding: 3% 0px;
 }
 .content {
   justify-content: space-between;
   align-items: center;
+  padding: 2%;
 }
 
 .footer-img img {
@@ -431,6 +431,12 @@ footer {
   border: none;
   background: #f87f04;
   color: #ffffff;
+}
+.copyrights {
+  background-color: #532a02;
+  padding: 20px;
+  text-align: center;
+  color: white;
 }
 /* MEDIA QUERY 480*/
 @media only screen and (max-width: 480px) {
