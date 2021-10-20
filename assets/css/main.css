@@ -389,6 +389,7 @@ textarea {
   color: #0e0606;
   background-color: white;
   width: 15%;
+  cursor: pointer;
 }
 /* Footer */
 footer {
