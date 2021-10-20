@@ -4,6 +4,9 @@
   padding: 0px;
   box-sizing: border-box;
 }
+textarea {
+  resize: none;
+}
 button {
   cursor: pointer;
   border: none;
@@ -357,7 +360,7 @@ a {
 }
 /* Form */
 form {
-  background-image: url("/assets/images/Education1.png");
+  background-image: url("/assets/images/footer.png");
   padding: 7% 0%;
   background-size: cover;
   background-position: center;
