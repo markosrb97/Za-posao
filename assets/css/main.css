@@ -190,6 +190,7 @@ a {
   padding: 5px;
   justify-content: center;
   align-items: center;
+  font-size: 2vw;
 }
 .banner-link img {
   padding-left: 5px;
@@ -403,6 +404,7 @@ footer {
 
 .footer-img img {
   border: 2px dashed white;
+  padding: 4%;
 }
 .footer-content {
   width: 25%;
@@ -507,7 +509,8 @@ footer {
     text-align: center;
   }
   .header-button {
-    margin-top: 2%;
+    display: block;
+    margin: 10px auto;
   }
   .arrow {
     display: none;
@@ -529,6 +532,9 @@ footer {
       0px 0px 6px 1px rgba(0, 0, 0, 0);
     box-shadow: inset -1px 3px 8px 5px #f87f04, 2px 5px 16px 0px #f87f04,
       0px 0px 6px 1px rgba(0, 0, 0, 0);
+  }
+  .banner-link {
+    font-size: 5vw;
   }
   .banner nav ul li a {
     font-size: 3vw;
